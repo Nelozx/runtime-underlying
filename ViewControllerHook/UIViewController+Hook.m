@@ -22,10 +22,9 @@
 
 - (void)no_viewWillAppear:(BOOL)animated {
     
+    NSLog(@"%s", __func__);
+    [self no_viewWillAppear:animated];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    
-}
 
 @end
